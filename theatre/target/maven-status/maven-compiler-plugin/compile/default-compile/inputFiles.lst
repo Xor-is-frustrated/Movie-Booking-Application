@@ -1,0 +1,15 @@
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/pojo/TheatrePojo.java
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/controller/AppRestControllerAdvice.java
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/config/WebInitializer.java
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/dao/TheatreDao.java
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/dao/AbstractDao.java
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/controller/TheatreController.java
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/config/DbConfig.java
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/pojo/AbstractPojo.java
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/dto/TheatreDto.java
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/config/SpringConfig.java
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/config/ControllerConfig.java
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/util/JsonUtil.java
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/api/TheatreApi.java
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/pojo/ChannelListingPojo.java
+/home/user/IdeaProjects/channel_app4/theatre/src/main/java/com/personal/project/theatre/api/ApiException.java

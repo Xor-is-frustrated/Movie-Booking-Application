@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: toy-assure-commons:commons:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/toy-assure-commons/commons/1.0.0-SNAPSHOT/commons-1.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/toy-assure-commons/commons/1.0.0-SNAPSHOT/commons-1.0.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/toy-assure-commons/commons/1.0.0-SNAPSHOT/commons-1.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
