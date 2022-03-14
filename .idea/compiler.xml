@@ -7,11 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="theatre" />
+        <module name="admin" />
+        <module name="commons" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="admin" target="8" />
+      <module name="admin" target="1.8" />
       <module name="channel_app4" target="1.8" />
+      <module name="commons" target="8" />
       <module name="theatre" target="1.8" />
     </bytecodeTargetLevel>
   </component>

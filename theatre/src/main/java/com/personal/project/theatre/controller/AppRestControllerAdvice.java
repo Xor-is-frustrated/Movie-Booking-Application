@@ -1,8 +1,8 @@
 package com.personal.project.theatre.controller;
 
 
-import com.increff.commons.data.MessageData;
-import com.personal.project.theatre.api.ApiException;
+import com.personal.project.model.ApiException;
+import com.personal.project.model.data.ErrorData;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -13,16 +13,16 @@ public class AppRestControllerAdvice {
 
 	@ExceptionHandler(ApiException.class)
 	@ResponseStatus(HttpStatus.BAD_REQUEST)
-	public MessageData handle(ApiException e) {
-		MessageData data = new MessageData();
+	public ErrorData handle(ApiException e) {
+		ErrorData data = new ErrorData();
 		data.setMessage(e.getMessage());
 		return data;
 	}
 
 	@ExceptionHandler(Throwable.class)
 	@ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-	public MessageData handle(Throwable e) {
-		MessageData data = new MessageData();
+	public ErrorData handle(Throwable e) {
+		ErrorData data = new ErrorData();
 		data.setMessage("An unknown error has occurred - " + e.getMessage());
 		return data;
 	}

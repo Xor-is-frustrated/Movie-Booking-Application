@@ -1,0 +1,5 @@
+com/personal/project/model/ApiException.class
+com/personal/project/model/data/ErrorData.class
+com/personal/project/model/ApiStatus.class
+com/personal/project/model/data/FieldErrorData.class
+com/personal/project/model/Address.class

@@ -15,13 +15,13 @@ public class AbstractPojo {
 
 	private ZonedDateTime createdAt = ZonedDateTime.now();
 
-	private ZonedDateTime modifiedAt = ZonedDateTime.now();
+	private ZonedDateTime udpatedAt = ZonedDateTime.now();
 
 	@Version
 	private Long version;
 
 	@PreUpdate
-	public void setModifiedAt() {
-		this.modifiedAt = ZonedDateTime.now();
+	public void setUdpatedAt() {
+		this.udpatedAt = ZonedDateTime.now();
 	}
 }

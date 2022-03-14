@@ -15,7 +15,8 @@
 <!--        <module>bookmyshow</module>-->
 <!--        <module>admin</module>-->
         <module>theatre</module>
-<!--        <module>commons</module>-->
+        <module>admin</module>
+        <module>commons</module>
     </modules>
 
     <properties>
